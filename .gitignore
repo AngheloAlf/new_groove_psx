@@ -5,6 +5,8 @@ assets/
 build/
 expected/
 
+*.ld
+
 __pycache__/
 .venv/
 
