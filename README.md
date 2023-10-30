@@ -5,8 +5,9 @@ files are in UPPERCASE.
 
 Install dependencies: TODO
 
-Run
+Run:
 
 ```bash
-./tools/splat/split.py scus_945.71.yaml
+make extract
+make
 ```

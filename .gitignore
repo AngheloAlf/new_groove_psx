@@ -6,6 +6,7 @@ build/
 expected/
 
 *.ld
+*.d
 
 __pycache__/
 .venv/
