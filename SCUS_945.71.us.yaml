@@ -8,8 +8,7 @@ options:
   compiler: GCC
 
   find_file_boundaries: False
-  gp_value: 0x00000000
-  # gp_value: 0x0006BF64
+  gp_value: 0x0006BF64
 
   elf_path: build/us/SCUS_945.71.elf
   ld_script_path: linker_scripts/us/SCUS_945.71.ld
@@ -75,10 +74,11 @@ segments:
     type: code
     start: 0x800
     vram: 0x10000
-    bss_size: 0x0
+    bss_size: 0x1CB0 # guessed, maybe larger
     subsegments:
       - [0x800, asm, 800]
       - [0x42190, asm, 42190] # ??
       - [0x4FB84, data, 4FB84]
       - [0x5AEB8, rodata, 5AEB8] # guessed
+      - { start: 0x60000, type: bss, vram: 0x6F800, name: 0006F800 } # guessed
   - [0x60000]
