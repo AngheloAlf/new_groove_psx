@@ -5,8 +5,9 @@ assets/
 build/
 expected/
 
-*.ld
+SCUS_945.71.ld
 *.d
+*_auto.ld
 
 .vscode/launch.json
 __pycache__/
