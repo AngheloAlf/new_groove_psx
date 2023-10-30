@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:ethteck/splat.git
+	branch = main
+	commit = 2117e1c6f76f612df71d65424626fff1f45cba2a
+	parent = 18a71b60b8d9b1368d25e9c428a1e752735a3983
+	method = merge
+	cmdver = 0.4.3
